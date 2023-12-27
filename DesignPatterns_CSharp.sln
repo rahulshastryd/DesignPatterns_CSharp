@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{39100A81-5C50-41F0-9E72-028B476CCDDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{39100A81-5C50-41F0-9E72-028B476CCDDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethods", "FactoryMethods\FactoryMethods.csproj", "{13A2E907-D659-45CE-AA97-C8945A81EC58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethods", "FactoryMethods\FactoryMethods.csproj", "{13A2E907-D659-45CE-AA97-C8945A81EC58}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderDesignPattern", "BuilderDesignPattern", "{77EE7C56-C425-4939-8A59-E4F165C3E0FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{2B19B740-472A-461F-85F3-4A058FF20EC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{2B19B740-472A-461F-85F3-4A058FF20EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderMethods", "BuilderMethods\BuilderMethods.csproj", "{E7DF92BD-F509-46B0-818D-F0C341234F7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderMethods", "BuilderMethods\BuilderMethods.csproj", "{E7DF92BD-F509-46B0-818D-F0C341234F7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactoryDesignPattern", "AbstractFactoryDesignPattern", "{0451E675-C6B1-41CE-A140-E5DA89F01734}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentBuilderDesignPattern", "FluentBuilderDesignPattern", "{1C724D51-9AC9-4272-9920-B79046A1E7ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderPattern", "FluentBuilderPattern\FluentBuilderPattern.csproj", "{380616E7-8E72-439B-940C-5AD3761BE3F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderMethods", "FluentBuilderMethods\FluentBuilderMethods.csproj", "{9F9A6E67-9B14-4C76-89D9-63882E0809BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,14 @@ Global
 		{E7DF92BD-F509-46B0-818D-F0C341234F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7DF92BD-F509-46B0-818D-F0C341234F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7DF92BD-F509-46B0-818D-F0C341234F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380616E7-8E72-439B-940C-5AD3761BE3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380616E7-8E72-439B-940C-5AD3761BE3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380616E7-8E72-439B-940C-5AD3761BE3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380616E7-8E72-439B-940C-5AD3761BE3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9A6E67-9B14-4C76-89D9-63882E0809BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9A6E67-9B14-4C76-89D9-63882E0809BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9A6E67-9B14-4C76-89D9-63882E0809BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9A6E67-9B14-4C76-89D9-63882E0809BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +60,8 @@ Global
 		{13A2E907-D659-45CE-AA97-C8945A81EC58} = {0451E675-C6B1-41CE-A140-E5DA89F01734}
 		{2B19B740-472A-461F-85F3-4A058FF20EC9} = {77EE7C56-C425-4939-8A59-E4F165C3E0FB}
 		{E7DF92BD-F509-46B0-818D-F0C341234F7E} = {77EE7C56-C425-4939-8A59-E4F165C3E0FB}
+		{380616E7-8E72-439B-940C-5AD3761BE3F6} = {1C724D51-9AC9-4272-9920-B79046A1E7ED}
+		{9F9A6E67-9B14-4C76-89D9-63882E0809BB} = {1C724D51-9AC9-4272-9920-B79046A1E7ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56DA7748-967E-449D-BA84-3FEFC698EF1E}
